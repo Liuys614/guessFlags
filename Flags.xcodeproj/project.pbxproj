@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB54B26C29AE77D000545838 /* guessFlags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessFlags.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB54B26C29AE77D000545838 /* Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB54B26F29AE77D000545838 /* guessFlagsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessFlagsApp.swift; sourceTree = "<group>"; };
 		DB54B27129AE77D000545838 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB54B27329AE77D100545838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB54B27629AE77D100545838 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DB54B27C29AE77D100545838 /* guessFlagsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guessFlagsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB54B27C29AE77D100545838 /* FlagsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB54B28029AE77D100545838 /* guessFlagsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessFlagsTests.swift; sourceTree = "<group>"; };
-		DB54B28629AE77D100545838 /* guessFlagsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guessFlagsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB54B28629AE77D100545838 /* FlagsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlagsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB54B28A29AE77D100545838 /* guessFlagsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessFlagsUITests.swift; sourceTree = "<group>"; };
 		DB54B28C29AE77D100545838 /* guessFlagsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessFlagsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		DB54B26D29AE77D000545838 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB54B26C29AE77D000545838 /* guessFlags.app */,
-				DB54B27C29AE77D100545838 /* guessFlagsTests.xctest */,
-				DB54B28629AE77D100545838 /* guessFlagsUITests.xctest */,
+				DB54B26C29AE77D000545838 /* Flags.app */,
+				DB54B27C29AE77D100545838 /* FlagsTests.xctest */,
+				DB54B28629AE77D100545838 /* FlagsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB54B26B29AE77D000545838 /* guessFlags */ = {
+		DB54B26B29AE77D000545838 /* Flags */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB54B29029AE77D100545838 /* Build configuration list for PBXNativeTarget "guessFlags" */;
+			buildConfigurationList = DB54B29029AE77D100545838 /* Build configuration list for PBXNativeTarget "Flags" */;
 			buildPhases = (
 				DB54B26829AE77D000545838 /* Sources */,
 				DB54B26929AE77D000545838 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = guessFlags;
+			name = Flags;
 			productName = guessFlags;
-			productReference = DB54B26C29AE77D000545838 /* guessFlags.app */;
+			productReference = DB54B26C29AE77D000545838 /* Flags.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB54B27B29AE77D100545838 /* guessFlagsTests */ = {
+		DB54B27B29AE77D100545838 /* FlagsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB54B29329AE77D100545838 /* Build configuration list for PBXNativeTarget "guessFlagsTests" */;
+			buildConfigurationList = DB54B29329AE77D100545838 /* Build configuration list for PBXNativeTarget "FlagsTests" */;
 			buildPhases = (
 				DB54B27829AE77D100545838 /* Sources */,
 				DB54B27929AE77D100545838 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				DB54B27E29AE77D100545838 /* PBXTargetDependency */,
 			);
-			name = guessFlagsTests;
+			name = FlagsTests;
 			productName = guessFlagsTests;
-			productReference = DB54B27C29AE77D100545838 /* guessFlagsTests.xctest */;
+			productReference = DB54B27C29AE77D100545838 /* FlagsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DB54B28529AE77D100545838 /* guessFlagsUITests */ = {
+		DB54B28529AE77D100545838 /* FlagsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB54B29629AE77D100545838 /* Build configuration list for PBXNativeTarget "guessFlagsUITests" */;
+			buildConfigurationList = DB54B29629AE77D100545838 /* Build configuration list for PBXNativeTarget "FlagsUITests" */;
 			buildPhases = (
 				DB54B28229AE77D100545838 /* Sources */,
 				DB54B28329AE77D100545838 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				DB54B28829AE77D100545838 /* PBXTargetDependency */,
 			);
-			name = guessFlagsUITests;
+			name = FlagsUITests;
 			productName = guessFlagsUITests;
-			productReference = DB54B28629AE77D100545838 /* guessFlagsUITests.xctest */;
+			productReference = DB54B28629AE77D100545838 /* FlagsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB54B26729AE77D000545838 /* Build configuration list for PBXProject "guessFlags" */;
+			buildConfigurationList = DB54B26729AE77D000545838 /* Build configuration list for PBXProject "Flags" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB54B26B29AE77D000545838 /* guessFlags */,
-				DB54B27B29AE77D100545838 /* guessFlagsTests */,
-				DB54B28529AE77D100545838 /* guessFlagsUITests */,
+				DB54B26B29AE77D000545838 /* Flags */,
+				DB54B27B29AE77D100545838 /* FlagsTests */,
+				DB54B28529AE77D100545838 /* FlagsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		DB54B27E29AE77D100545838 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB54B26B29AE77D000545838 /* guessFlags */;
+			target = DB54B26B29AE77D000545838 /* Flags */;
 			targetProxy = DB54B27D29AE77D100545838 /* PBXContainerItemProxy */;
 		};
 		DB54B28829AE77D100545838 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB54B26B29AE77D000545838 /* guessFlags */;
+			target = DB54B26B29AE77D000545838 /* Flags */;
 			targetProxy = DB54B28729AE77D100545838 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guessFlags.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/guessFlags";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flags.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flags";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guessFlags.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/guessFlags";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flags.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flags";
 			};
 			name = Release;
 		};
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB54B26729AE77D000545838 /* Build configuration list for PBXProject "guessFlags" */ = {
+		DB54B26729AE77D000545838 /* Build configuration list for PBXProject "Flags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB54B28E29AE77D100545838 /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB54B29029AE77D100545838 /* Build configuration list for PBXNativeTarget "guessFlags" */ = {
+		DB54B29029AE77D100545838 /* Build configuration list for PBXNativeTarget "Flags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB54B29129AE77D100545838 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB54B29329AE77D100545838 /* Build configuration list for PBXNativeTarget "guessFlagsTests" */ = {
+		DB54B29329AE77D100545838 /* Build configuration list for PBXNativeTarget "FlagsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB54B29429AE77D100545838 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB54B29629AE77D100545838 /* Build configuration list for PBXNativeTarget "guessFlagsUITests" */ = {
+		DB54B29629AE77D100545838 /* Build configuration list for PBXNativeTarget "FlagsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB54B29729AE77D100545838 /* Debug */,
